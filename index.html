@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        main{
+            background-color: #ECF3FF;
+            border-radius: 20px;
+        }
+        article{
+            width: 70%;
+            display: inline-block;
+        }
+        aside{
+            display: inline-block;
+        }
+        img{
+            width: 80%;
+            display: inline;
+        }
+        .icon{
+            height: auto;
+            width: 20px;
+            padding: 0px 50px;
+        }
+        footer{
+            text-align: center;
+            background-color: navy;
+            color: white;
+            border-radius: 20px;
+        }
+        aside{
+            width: 20%;
+            float: right;
+        }
+        a{
+            padding: 0px 20px;
+        }
+        video{
+
+            width: 800px;
+            height: 400px;
+  
+        }
+        #vid{
+            text-align: center;
+        }
+        section p{
+            text-align: left;
+        }
+        form input{
+           margin: 10px 0px;
+        }
+        form {
+            background-color: rgb(255, 196, 0);
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: navy;">Sky blog</h1>
+        <nav>
+            <span><a href="summer.html">Summer spots</a></span>
+            <span><a href="occasion.html">Occasional spots</a></span>
+            <span><a href="sky.html">Author</a></span>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <p>There are many places to visit but my favourite place is <strong>Goa</strong>. Because Goa is one of the most favorite destination among Indian tourists due to its pristine beaches. Dotted with hundreds of impressive beaches in Goa, the incredible coastline of more than 100 km offers beautiful views and serenity where tourists enjoy and relax in the Sun</p>
+                <figure>
+                    <img src="goa1.jpg" alt="beach" />
+                    <figcaption>cool beach</figcaption>
+                    <img src="goa2.jpeg" alt="beach" />
+                    <figcaption>sunset</figcaption>
+                    <img src="goa3.jpg" alt="beach" />
+                    <figcaption>sunrise</figcaption>
+                </figure>
+            </article>
+            <aside>
+                <h2>More places to visit in india:</h2>
+                <Ul>
+                    <li>Kerala</li>
+                    <li>Ooty</li>
+                    <li>Shimla</li>
+                    <li>Pondicherry</li>
+                    <li>Darjeeling</li>
+                    <li>Jammu and kashmir</li>
+                    <li>Rishikesh</li>
+                    <li><a href="#">More places</a></li>
+                </Ul>
+                <hr width="50px">
+                <h2>You can suggest me places</h4>
+                <form action="sky.html">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required> <br>
+                    <label for="mail">Mail:</label> 
+                    <input type="text" id="mail" name="mail" required>
+                    <label for="place">Place:</label>
+                    <input type="text" id="place" name="place" required>
+                    <label for="spots">No. of spots</label>
+                    <input type="number" id="spots" name="spots" min="1" max="10" required> <br>
+                    <label for="rate">Rate the place:</label>
+                    <input type="range" id="rate" name="rate" value="1" min="1" max="5" step="1" required>
+                    <label for="extra">Any extra info. you like to share</label>
+                    <textarea type="textarea" id="extra" name="extra" rows="5" cols="30"></textarea>
+                    <hr width="30px">
+                    <input type="submit" value="submit">
+                </form>
+
+            </aside>
+        </section>
+        <section id="vid">
+            <p><strong>These are just a few of the many water activities that you can enjoy in Goa. Whether you're looking for adventure or relaxation, there is something for everyone here.</strong> </p>
+            <p><strong>Scuba Diving:</strong> <em>Scuba diving is an exciting way to explore the underwater world of Goa. With clear waters and diverse marine life, you can experience the thrill of diving and discover a new world of sea creatures and coral reefs.</em> <br>
+                <strong>Parasailing:</strong> <em>Parasailing is an adventure activity that lets you soar high above the water while being towed behind a boat. It's a great way to take in the stunning views of the coastline and feel the wind in your hair.</em> <br>
+                <strong>Jet Skiing:</strong> <em> Jet skiing is a thrilling activity that involves riding a high-speed watercraft through the waves. It's a great way to feel the rush of adrenaline and get your heart pumping.</em></p>
+            <video controls autoplay src="VID_20220923_104719.mp4">Parasailing</video>
+            <p>Overall, Goa is a fascinating state with a rich history, vibrant culture, and beautiful landscapes. It is a popular tourist destination for both domestic and international travelers, offering something for everyone</p>
+        </section>
+    </main>
+    <footer id="footer">
+        <h5>Follow me on:</h5>
+        <a href="www.instagram.com"><img class="icon" src="instagram.png" alt="insta" /></a>
+        <a href="www.facebook.com"><img class="icon" src="facebook.png" alt="facebook"/></a>
+        <a href="www.linkedin.com"><img class="icon" src="linkedin.png" alt="linkedin" /></a>
+        <span>You can mail me:</span>
+        <a  style="color: skyblue;" href="saikumarkotha18@gmail.com">saikumarkotha18@gmail.com</a>
+    </footer>
+</body>
+</html>
